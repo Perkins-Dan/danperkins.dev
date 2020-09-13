@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html,
 body,
 div,
@@ -86,6 +87,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -100,17 +102,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -118,7 +124,56 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Raleway", sans-serif;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+nav,
+.pages,
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav {
+  border-bottom: 1px solid #adadad;
+}
+
+nav > * {
+  margin: 1.5rem 2vw 1.25rem 2vw;
+}
+
+nav .logo {
+  margin-top: 1.3rem;
+  border-bottom: 2px solid;
+}
+
+.pages li {
+  margin: 0 1.5vw 0 1.5vw;
+}
+
+.socials {
+  margin-left: auto;
+}
+
+.socials li {
+  margin: 0 1vw 0 1vw;
+}
+/*# sourceMappingURL=main.css.map */
