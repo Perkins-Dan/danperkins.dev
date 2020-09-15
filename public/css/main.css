@@ -131,6 +131,7 @@ table {
 }
 
 p,
+a,
 h1,
 h2,
 h3,
@@ -139,9 +140,69 @@ h5 {
   font-family: "Raleway", sans-serif;
 }
 
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
 h3 {
   font-size: 18px;
   font-weight: 600;
+}
+
+.landing-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left {
+  padding: 6rem;
+}
+
+.landing-content {
+  width: 35vw;
+}
+
+.landing-content .sub-heading {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 2rem 1rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #adadad;
+}
+
+.landing-content .coming-soon {
+  margin-top: 100px;
+}
+
+.landing-content .coming-soon p {
+  margin-top: 30px;
+}
+
+.landing-text {
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.landing-text p {
+  line-height: 25px;
+  text-align: justify;
+}
+
+.project {
+  width: 100%;
+}
+
+.project img {
+  width: 30vw;
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
+.buttons {
+  width: 100px;
 }
 
 nav,

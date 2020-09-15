@@ -1,0 +1,50 @@
+.landing-screen {
+  display: flex;
+}
+
+.left {
+  padding: 6rem;
+}
+
+.landing-content {
+  width: 35vw;
+
+  .sub-heading {
+    width: max-content;
+    margin: 2rem 1rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid $light-gray;
+  }
+
+  .coming-soon {
+    margin-top: 100px;
+
+    p {
+      margin-top: 30px;
+    }
+  }
+}
+
+.landing-text {
+  width: 100%;
+  padding-top: 1rem;
+
+  p {
+    line-height: 25px;
+    text-align: justify;
+  }
+}
+
+.project {
+  width: 100%;
+
+  img {
+    width: 30vw;
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+}
+
+.buttons {
+  width: 100px;
+}
